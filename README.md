@@ -16,11 +16,11 @@
 
 ## 仓库结构
 
-- `/Users/xietianling/mineflayer-builder/index.js`：builder 主逻辑
-- `/Users/xietianling/mineflayer-builder/lib/Build.js`：动作生成、锁、区域预约、状态匹配
-- `/Users/xietianling/mineflayer-builder/examples/multiBuilder.js`：多 bot 启动器
-- `/Users/xietianling/mineflayer-builder/examples/workerBot.js`：单个 bot 工作进程
-- `/Users/xietianling/mineflayer-builder/schematics`：结构文件
+- `index.js`：builder 主逻辑
+- `lib/Build.js`：动作生成、锁、区域预约、状态匹配
+- `examples/multiBuilder.js`：多 bot 启动器
+- `examples/workerBot.js`：单个 bot 工作进程
+- `schematics`：结构文件
 
 ## 环境要求
 
@@ -90,18 +90,18 @@ npm run multi-build:dev
 
 当前 `examples/workerBot.js` 默认读取：
 
-- `/Users/xietianling/mineflayer-builder/schematics/smallhouse1.schem`
+- `schematics/smallhouse1.schem`
 
 如果你想替换成其他结构文件，可以修改：
 
-- `/Users/xietianling/mineflayer-builder/examples/workerBot.js:76`
+- `examples/workerBot.js`
 
 仓库中目前公开的结构文件包括：
 
-- `/Users/xietianling/mineflayer-builder/schematics/smallhouse1.schem`
-- `/Users/xietianling/mineflayer-builder/schematics/FDragonSTv2-119.schem`
-- `/Users/xietianling/mineflayer-builder/schematics/_2024.schem`
-- `/Users/xietianling/mineflayer-builder/schematics/海上别墅2024.litematic`
+- `schematics/smallhouse1.schem`
+- `schematics/FDragonSTv2-119.schem`
+- `schematics/_2024.schem`
+- `schematics/海上别墅2024.litematic`
 
 ## 当前实现重点
 
